@@ -1,0 +1,28 @@
+.error-box{
+    height:100%;
+    top:20%;
+    width:100%
+}
+.error-body{
+    padding-top:5%
+}
+.error-body h1{
+    font-family: Montserat-bold, sans-serif;
+    font-size:210px;
+    font-weight:900;
+    line-height:210px
+}
+.error-body h3{
+    font-family: Montserat-bold, sans-serif;
+    font-size: 3rem;
+}
+.text-muted {
+
+}
+.error-body p {
+    font-family: Montserat-thin, sans-serif;
+    color: #6c757d!important;
+    font-size: 2rem;
+    margin: 2rem 0;
+
+}

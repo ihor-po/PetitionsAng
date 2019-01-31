@@ -1,10 +1,12 @@
-<div class="header">
-  <div class="header__title">
-    <a class="logo_link" href="/"><h1 class="header__title__text">Електронні петиції</h1></a>
-  </div>
-  <!--{% if(isAuth and isAuth == true) %}-->
-  <!--<a role="button" class="btn btn-outline-primary" href="logout">Вийти</a>-->
-  <!--{% else %}-->
-  <!--<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#loginModal">Увійти</button>-->
-  <!--{% endif %}-->
-</div>
+<header>
+    <div class="header">
+      <div class="header__title">
+        <a class="logo_link" routerLink="/"><h1 class="header__title__text">Електронні петиції</h1></a>
+      </div>
+      <!--{% if(isAuth and isAuth == true) %}-->
+      <!--<a role="button" class="btn btn-outline-primary" href="logout">Вийти</a>-->
+      <!--{% else %}-->
+      <a role="button" class="btn btn-outline-primary link-font" routerLink="/login">Увійти</a>
+      <!--{% endif %}-->
+    </div>
+</header>
