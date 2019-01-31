@@ -8,6 +8,7 @@ import { Error404Component } from './error404/error404.component';
 import { PetitionsComponent } from './petitions/petitions.component';
 import { LoginComponent } from './login/login.component';
 import { PetitionComponent } from './petition/petition.component';
+import {TestService} from './test.service';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,9 @@ import { PetitionComponent } from './petition/petition.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+      TestService
+  ],
   bootstrap: [HomeComponent]
 })
 export class AppModule { }
